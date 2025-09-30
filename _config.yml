@@ -12,7 +12,7 @@ description: >- # used by seo meta and the atom feed
   Custom 3D printed organizers, tools, and functional designs.
   Made-to-order quality for home, office, and workshop.
 url: "https://mkcustom.work"
-avatar: '/assets/img/avatar-3d.png'
+# avatar: '/assets/img/avatar-3d.png'
 github:
   username: m-kk
 linkedin:
