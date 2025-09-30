@@ -29,4 +29,4 @@ custom solutions. Based in Chicago.
 Have a specific need? Send your measurements or a sketch to 
 [email] and we'll quote within 24 hours.
 
-[Shop Designs](/categories/) | [Request Custom](/contact/)
+<!-- [Shop Designs](/categories/) | [Request Custom](/contact/) -->
