@@ -85,7 +85,7 @@ cdn:
 
 # TODO: update
 # Avatar (place in assets/img/)
-avatar: /assets/img/avatar.jpg
+avatar: # /assets/img/avatar.jpg
 
 # The URL of the site-wide social preview image used in SEO `og:image` meta tag.
 # It can be overridden by a customized `page.image` in front matter.
