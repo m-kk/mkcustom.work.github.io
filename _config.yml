@@ -12,7 +12,7 @@ description: >- # used by seo meta and the atom feed
   Custom 3D printed organizers, tools, and functional designs.
   Made-to-order quality for home, office, and workshop.
 url: "https://mkcustom.work"
-# avatar: '/assets/img/avatar-3d.png'
+avatar: "/assets/img/mkcustom-avatar.png"
 github:
   username: m-kk
 linkedin:
@@ -80,10 +80,6 @@ theme_mode: dark
 #
 # e.g. 'https://cdn.com'
 cdn:
-
-# TODO: update
-# Avatar (place in assets/img/)
-avatar: # /assets/img/avatar.jpg
 
 # The URL of the site-wide social preview image used in SEO `og:image` meta tag.
 # It can be overridden by a customized `page.image` in front matter.
