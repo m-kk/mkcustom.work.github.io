@@ -7,14 +7,12 @@ timezone: America/Chicago
 # ↓ --------------------------
 
 title: MK Custom 3D Works
-# TODO: update the tagline and description
-tagline: A text-focused Jekyll theme
-# TODO: update the description
+tagline: Precision 3D Printed Solutions
 description: >- # used by seo meta and the atom feed
-  A minimal, responsive and feature-rich Jekyll theme for technical writing.
-
+  Custom 3D printed organizers, tools, and functional designs.
+  Made-to-order quality for home, office, and workshop.
 url: "https://mkcustom.work"
-
+avatar: '/assets/img/avatar-3d.png'
 github:
   username: m-kk
 linkedin:
@@ -45,19 +43,19 @@ webmaster_verifications:
 # Web Analytics Settings
 analytics:
   google:
-    id: # fill in your Google Analytics ID
-  goatcounter:
-    id: # fill in your GoatCounter ID
-  umami:
-    id: # fill in your Umami ID
-    domain: # fill in your Umami domain
-  matomo:
-    id: # fill in your Matomo ID
-    domain: # fill in your Matomo domain
-  cloudflare:
-    id: # fill in your Cloudflare Web Analytics token
-  fathom:
-    id: # fill in your Fathom Site ID
+    id: G-SPES5KX1VL
+  # goatcounter:
+  #   id: # fill in your GoatCounter ID
+  # umami:
+  #   id: # fill in your Umami ID
+  #   domain: # fill in your Umami domain
+  # matomo:
+  #   id: # fill in your Matomo ID
+  #   domain: # fill in your Matomo domain
+  # cloudflare:
+  #   id: # fill in your Cloudflare Web Analytics token
+  # fathom:
+  #   id: # fill in your Fathom Site ID
 
 # Page views settings
 pageviews:
