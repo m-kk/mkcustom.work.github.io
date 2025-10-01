@@ -5,6 +5,27 @@ order: 5
 title: Contact & Custom Orders
 ---
 
+<style>
+.page-contact .contact-form { max-width: 600px; margin: 2rem 0; }
+.page-contact .form-group { margin-bottom: 1.75rem; }
+.page-contact .form-group label { display: block; margin-bottom: 0.5rem; font-weight: 600; color: var(--heading-color); }
+.page-contact .form-group input,
+.page-contact .form-group select,
+.page-contact .form-group textarea { width: 100%; padding: 0.85rem 1rem; border: 2px solid #e9ecef; border-radius: 6px; background: var(--main-bg); color: var(--text-color); font-size: 1rem; transition: all 0.2s ease; }
+[data-mode="dark"] .page-contact .form-group input,
+[data-mode="dark"] .page-contact .form-group select,
+[data-mode="dark"] .page-contact .form-group textarea { border-color: #3d444d; }
+.page-contact .form-group input:focus,
+.page-contact .form-group select:focus,
+.page-contact .form-group textarea:focus { outline: none; border-color: #2a7ae2; box-shadow: 0 0 0 3px rgba(42, 122, 226, 0.1); }
+.page-contact .form-group select { appearance: none; background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='12' height='12' viewBox='0 0 12 12'%3E%3Cpath fill='%23666' d='M6 9L1 4h10z'/%3E%3C/svg%3E"); background-repeat: no-repeat; background-position: right 1rem center; padding-right: 2.5rem; cursor: pointer; }
+[data-mode="dark"] .page-contact .form-group select { background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='12' height='12' viewBox='0 0 12 12'%3E%3Cpath fill='%23aaa' d='M6 9L1 4h10z'/%3E%3C/svg%3E"); }
+.page-contact .form-group textarea { resize: vertical; min-height: 140px; }
+.page-contact .contact-form button[type="submit"] { background: #2a7ae2; color: #ffffff !important; padding: 0.85rem 2.5rem; border: none; border-radius: 6px; font-size: 1rem; font-weight: 600; cursor: pointer; transition: all 0.2s ease; margin-top: 0.5rem; }
+.page-contact .contact-form button[type="submit"]:hover { background: #1e6fd6; transform: translateY(-1px); box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15); }
+@media (max-width: 768px) { .page-contact .contact-form button[type="submit"] { width: 100%; } }
+</style>
+
 ## Request a Custom Design
 
 Need a 3D printed solution? Fill out the form below or email directly with your project details.
