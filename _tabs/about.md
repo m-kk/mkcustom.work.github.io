@@ -21,8 +21,9 @@ custom solutions. Based in Chicago.
 - **PETG**: Heat-resistant, durable (tool holders, outdoor)
 - **PLA**: Smooth finish (desk accessories, decorative)
 - **ABS/ASA**: Durable (industrial, outdoor, heat resistant)
-- **Resolution**: 0.2mm standard
+- **Resolution**: 7μm print resolution, 0.2mm layer height standard
 - **Size**: Up to 220×220×250mm build volume
+- **Color**: single and multi-color printing available
 
 ### Custom Orders
 

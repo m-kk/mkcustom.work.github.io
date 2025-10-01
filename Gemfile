@@ -14,6 +14,7 @@ group :jekyll_plugins do
   gem "jekyll-archives"
   gem "jekyll-sitemap"
   gem "jekyll-include-cache"
+  gem 'jekyll-compose'
 end
 
 # Performance-booster for watching directories

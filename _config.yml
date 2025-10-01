@@ -39,6 +39,23 @@ webmaster_verifications:
 # ↑ --------------------------
 # The end of `jekyll-seo-tag` settings
 
+# jekyll_compose settings
+jekyll_compose:
+  default_front_matter:
+    posts:
+      author: matt-kaili
+      description: ""
+      image:
+        path: ""
+        alt: ""
+      categories: []
+      tags: []
+      pin: false
+    drafts:
+      description: ""
+      categories: []
+      tags: []
+
 # TODO: update
 # Web Analytics Settings
 analytics:
