@@ -174,8 +174,6 @@ Once you approve:
 
 **Not sure?** I'll recommend based on your use case.
 
-[Read detailed material comparison →](/materials/)
-
 ---
 
 ## Pricing Guide
@@ -371,7 +369,7 @@ A: Standard stock colors, or special order custom color (2-3 day lead time, no e
 
 ---
 
-[← Back to shop](/shop/) | [View stock products →](/shop/)
+[← Back to shop](/shop/)
 
 ---
 

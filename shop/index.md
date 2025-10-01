@@ -210,8 +210,6 @@ Not sure which material? Here's the quick reference:
 
 **Still not sure?** Email me—I'll recommend the best material for your specific use.
 
-[Read detailed material comparison →](/materials/)
-
 ---
 
 ## Ordering
