@@ -371,7 +371,7 @@ A: Standard stock colors, or special order custom color (2-3 day lead time, no e
 
 ---
 
-[← Back to shop](/shop/) | [View stock products →](/shop/#popular-products) | [Material guide →](/materials/)
+[← Back to shop](/shop/) | [View stock products →](/shop/)
 
 ---
 
