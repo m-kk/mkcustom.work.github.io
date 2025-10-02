@@ -1,0 +1,20 @@
+<script type="application/ld+json">
+  {
+    "@context": "https://schema.org/",
+    "@type": "Product",
+    "name": "{{ page.title }}",
+    "image": "{{ site.url }}{{ page.image.path }}",
+    "description": "{{ page.description }}",
+    "brand": {
+      "@type": "Brand",
+      "name": "{{ site.title }}"
+    },
+    "offers": {
+      "@type": "Offer",
+      "url": "{{ page.url | absolute_url }}",
+      "priceCurrency": "USD",
+      "price": "{{ page.price }}",
+      "availability": "https://schema.org/InStock"
+    }
+  }
+</script>
