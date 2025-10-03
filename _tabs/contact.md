@@ -1,7 +1,7 @@
 ---
 layout: page
 icon: fas fa-envelope
-order: 5
+order: 2
 title: Contact & Custom Orders
 ---
 

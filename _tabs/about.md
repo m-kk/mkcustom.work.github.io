@@ -1,6 +1,6 @@
 ---
 icon: fas fa-info-circle
-order: 4
+order: 3
 ---
 
 ## 3D Printing Done Right

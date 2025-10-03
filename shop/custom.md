@@ -4,6 +4,40 @@ title: Custom 3D Printing Orders
 permalink: /shop/custom/
 description: Request custom 3D printed designs for organization, tools, and specific problems. Quote-based pricing. 3-5 day turnaround.
 ---
+<nav aria-label="breadcrumb" class="breadcrumb-nav">
+  <ol class="breadcrumb">
+    <li class="breadcrumb-item"><a href="/">Home</a></li>
+    <li class="breadcrumb-item"><a href="/shop/">Shop</a></li>
+    <li class="breadcrumb-item active" aria-current="page">Custom</li>
+  </ol>
+</nav>
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position": 1,
+      "name": "Home",
+      "item": "https://mkcustom.work/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 2,
+      "name": "Shop",
+      "item": "https://mkcustom.work/shop/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 3,
+      "name": "Custom",
+      "item": "https://mkcustom.work/shop/custom/"
+    }
+  ]
+}
+</script>
 
 ## Custom 3D Printing
 
