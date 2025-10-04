@@ -1,5 +1,27 @@
 theme: jekyll-theme-chirpy
 
+plugins:
+  - jekyll-sitemap
+  - jekyll-seo-tag
+  - jekyll-paginate
+
+# Defaults for pages
+defaults:
+  - scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: "post"
+      sitemap:
+        changefreq: "monthly"
+        priority: 0.7
+  - scope:
+      path: "shop"
+    values:
+      sitemap:
+        changefreq: "weekly"
+        priority: 0.9
+
 lang: en
 timezone: America/Chicago
 

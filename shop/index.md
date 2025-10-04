@@ -1,17 +1,9 @@
 ---
 layout: page
-icon: fas fa-store
-order: 1
-title: 3D Printed Products
-description: Custom 3D printed organizers, tool holders, and functional solutions. PETG, PLA, ABS, and ASA. Made in Chicago.
+title: Shop
+permalink: /shop/
+description: "Premium coffee roasting accessories and custom 3D-printed solutions."
 ---
-
-<nav aria-label="breadcrumb" class="breadcrumb-nav">
-  <ol class="breadcrumb">
-    <li class="breadcrumb-item"><a href="/">Home</a></li>
-    <li class="breadcrumb-item active" aria-current="page">Shop</li>
-  </ol>
-</nav>
 
 <script type="application/ld+json">
 {
@@ -30,20 +22,7 @@ description: Custom 3D printed organizers, tool holders, and functional solution
       "name": "Shop",
       "item": "https://mkcustom.work/shop/"
     }
-  ]
-}
-</script>
-
----
-layout: page
-title: Shop
-permalink: /shop/
-description: "Premium coffee roasting accessories and custom 3D-printed solutions. Designed, tested, and manufactured in-house with zero compromises."
----
-
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
+  ],
   "@type": "Store",
   "name": "MKK Design Craft Shop",
   "description": "Premium coffee roasting accessories and custom 3D-printed solutions",
@@ -75,6 +54,65 @@ description: "Premium coffee roasting accessories and custom 3D-printed solution
 }
 </script>
 
+<style>
+.breadcrumb-nav {
+  margin: 1.5rem 0;
+}
+
+.breadcrumb {
+  display: flex;
+  flex-wrap: wrap;
+  list-style: none;
+  padding: 0.75rem 1rem;
+  margin-bottom: 1.5rem;
+  background-color: #f8f9fa;
+  border-radius: 0.375rem;
+  font-size: 0.875rem;
+  
+  @media (prefers-color-scheme: dark) {
+    background-color: #2d333b;
+  }
+}
+
+.breadcrumb-item {
+  display: flex;
+  align-items: center;
+  
+  & + .breadcrumb-item {
+    padding-left: 0.5rem;
+    
+    &::before {
+      content: "/";
+      padding-right: 0.5rem;
+      color: #6c757d;
+    }
+  }
+  
+  a {
+    color: #007bff;
+    text-decoration: none;
+    transition: color 0.2s ease;
+    
+    &:hover {
+      color: #0056b3;
+      text-decoration: underline;
+    }
+  }
+  
+  &.active {
+    color: #6c757d;
+    font-weight: 500;
+  }
+}
+</style>
+
+<nav aria-label="breadcrumb" class="breadcrumb-nav">
+  <ol class="breadcrumb">
+    <li class="breadcrumb-item"><a href="/">Home</a></li>
+    <li class="breadcrumb-item active" aria-current="page">Shop</li>
+  </ol>
+</nav>
+
 ## Premium Coffee Roasting Accessories
 
 Precision-engineered upgrades for serious home roasters. Every product is designed, tested, and manufactured in-house using premium materials and professional-grade processes.
@@ -90,11 +128,14 @@ Workflow optimization tools and precision upgrades for home roasters.
 **Current Products:**
 - **[Aillio Bullet R1 Bean Deflector](/shop/accessories/#aillio-bullet-r1-bean-deflector)** — Heavy-duty ABS construction eliminates bean scatter during dumps. Drop-in installation, no beans on the floor. *$20*
 
+### [Custom Fabrication](/shop/custom/)
+
+Custom 3D-printed solutions for your unique needs. Let me know what you need and we can go from there.
+
 
 [Browse All Accessories →](/shop/accessories/)
 
 ---
-
 ## Featured Product
 
 <div class="featured-product">
@@ -161,7 +202,7 @@ Need a specific part or modification for your roasting setup? I take custom requ
 **Typical lead time:** 1–2 weeks for design + prototype  
 **Minimum order:** 1 unit
 
-[Request Custom Fabrication →](https://mkkdesigncraft.etsy.com/contact) or email [your-email@domain.com](mailto:your-email@domain.com)
+[Request Custom Fabrication →](https://mkkdesigncraft.etsy.com/contact) or email [matt@mkcustom.work](mailto:matt@mkcustom.work)
 
 ---
 

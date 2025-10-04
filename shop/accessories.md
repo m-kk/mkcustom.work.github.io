@@ -5,8 +5,6 @@ permalink: /shop/accessories/
 description: "Precision-engineered accessories for coffee roasters and makers. Premium materials, professional-grade construction, designed by roasters for roasters."
 ---
 
-
-
 <script type="application/ld+json">
 {
   "@context": "https://schema.org/",

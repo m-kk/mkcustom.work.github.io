@@ -4,13 +4,6 @@ title: Custom 3D Printing Orders
 permalink: /shop/custom/
 description: Request custom 3D printed designs for organization, tools, and specific problems. Quote-based pricing. 3-5 day turnaround.
 ---
-<nav aria-label="breadcrumb" class="breadcrumb-nav">
-  <ol class="breadcrumb">
-    <li class="breadcrumb-item"><a href="/">Home</a></li>
-    <li class="breadcrumb-item"><a href="/shop/">Shop</a></li>
-    <li class="breadcrumb-item active" aria-current="page">Custom</li>
-  </ol>
-</nav>
 
 <script type="application/ld+json">
 {
@@ -38,6 +31,66 @@ description: Request custom 3D printed designs for organization, tools, and spec
   ]
 }
 </script>
+
+<style>
+.breadcrumb-nav {
+  margin: 1.5rem 0;
+}
+
+.breadcrumb {
+  display: flex;
+  flex-wrap: wrap;
+  list-style: none;
+  padding: 0.75rem 1rem;
+  margin-bottom: 1.5rem;
+  background-color: #f8f9fa;
+  border-radius: 0.375rem;
+  font-size: 0.875rem;
+  
+  @media (prefers-color-scheme: dark) {
+    background-color: #2d333b;
+  }
+}
+
+.breadcrumb-item {
+  display: flex;
+  align-items: center;
+  
+  & + .breadcrumb-item {
+    padding-left: 0.5rem;
+    
+    &::before {
+      content: "/";
+      padding-right: 0.5rem;
+      color: #6c757d;
+    }
+  }
+  
+  a {
+    color: #007bff;
+    text-decoration: none;
+    transition: color 0.2s ease;
+    
+    &:hover {
+      color: #0056b3;
+      text-decoration: underline;
+    }
+  }
+  
+  &.active {
+    color: #6c757d;
+    font-weight: 500;
+  }
+}
+</style>
+
+<nav aria-label="breadcrumb" class="breadcrumb-nav">
+  <ol class="breadcrumb">
+    <li class="breadcrumb-item"><a href="/">Home</a></li>
+    <li class="breadcrumb-item"><a href="/shop/">Shop</a></li>
+    <li class="breadcrumb-item active" aria-current="page">Custom</li>
+  </ol>
+</nav>
 
 ## Custom 3D Printing
 
